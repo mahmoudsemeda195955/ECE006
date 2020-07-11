@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRYPTOGRAPHY
+</title>
+</head>
+<body>
+	<h1>CRYPTOGRAPHY
+</h1>
+	<h2>links</h2>
+	<ul>
+  <li><a href="index.html">Definition and Terminology</a></li>
+  <li><a href="p1.html">History of Cryptography</a></li>
+  <li><a href="p2.html">Types of Cryptography</a></li>
+   <li><a href="p3.html">Types of Cryptography image</a></li>
+     <li><a href="p4.html">Goal and Services</a></li>
+</ul>
+<br><b>Types of Cryptography</b><br/>
+<br> <br/>
+<br><b>Symmetric Key Cryptography</b></br>
+<br> Also known as Secret Key Cryptography or Conventional Cryptography, Symmetric Key Cryptography is an encryption system in which the sender and receiver of a message share a
+single,common key that is used to encrypt and decrypt the message. <br/>
+<br>The Algorithm use is also known as a secret key algorithm or sometimes called a symmetric algorithm
+</br>
+<br>A key is a piece of information (a parameter) that determines the functional output of a cryptographic algorithm or cipher.</br>
+<br>The key for encrypting and decrypting the file had to be known to all the recipients. Else, the message
+could not be decrypted by conventional means. 
+<br/>
+<br>  </br>
+<table style="width:100%">
+  <tr>
+    <th>    </th>
+    <th>Examples</th>
+	<th>Description</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td><b>Data Encryption Standard (DES)</b></td>
+	<td>The Data Encryption Standard was published in 1977 by the US National Bureau of Standards.
+DES uses a 56 bit key and maps a 64 bit input block of plaintext onto a 64 bit output block of ciphertext. 56
+bits is a rather small key for today's computing power.</td>
+  </tr>
+   <tr>
+    <td>2.</td>
+    <td><b>riple DES</b></td>
+	<td>Triple DES was the answer to many of the shortcomings of DES. Since it is based on the DES algorithm, it is
+very easy to modify existing software to use Triple DES. It also has the advantage of proven reliability and a
+longer key length that eliminates many of the shortcut attacks that can be used to reduce the amount of
+time it takes to break DES.</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td><b>Advanced Encryption Standard (AES) </b></td>
+	<td>Advanced Encryption Standard (AES) is an encryption standard adopted by the U.S. government. The
+standard comprises three block ciphers, AES-128, AES-192 and AES-256, adopted from a larger collection
+originally published as Rijndael.
+Each AES cipher has a 128-bit block size, with key sizes of 128, 192 and 256 bits, respectively. The AES
+ciphers have been analyzed extensively and are now used worldwide, as was the case with its
+predecessor, the Data Encryption Standard (DES).</td>
+  <tr>
+    <td>4.</td>
+    <td><b>IDEA</b></td>
+	<td>The International Data Encryption Algorithm was developed in 1991.
+It uses a 128 bit key to encrypt a 64 bit block of plaintext into a 64 bit block of ciphertext.
+IDEA's general structure is very similar to DES, it performs 17 rounds, each round taking 64 bits of
+input to produce a 64 bit output, using per-round keys generated from the 128 bit key. </td>
+  </tr>
+  </table>
+  
+  
+  
+
+<br> <br/>
+<br><b>Asymmetric Key Cryptography</b></br>
+<br>Asymmetric cryptography , also known as Public-key cryptography, refers to a cryptographic algorithm which
+requires two separate keys, one of which is private and one of which is public. The public key is used to
+encrypt the message and the private one is used to decrypt the message. <br/>
+<br>Public Key Cryptography is a very advanced form of cryptography.
+Officially, it was invented by Whitfield Diffie and Martin Hellman in 1975.
+</br>
+<br>The basic technique of public key cryptography was first discovered in 1973 by the British Clifford Cocks of
+Communications-Electronics Security Group (CESG) of (Government Communications Headquarters - GCHQ)
+but this was a secret until 1997.</br>
+<br>  </br>
+<table style="width:100%">
+  <tr>
+    <th>    </th>
+    <th>Examples</th>
+	<th>Description</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td><b>Digital Signature Standard (DSS)</b></td>
+	<td>Digital Signature Standard (DSS) is the digital signature algorithm (DSA) developed by the U.S. National Security
+Agency (NSA) to generate a digital signature for the authentication of electronic documents. DSS was put forth
+by the National Institute of Standards and Technology (NIST) in 1994, and has become the United States
+government standard for authentication of electronic documents. DSS is specified in Federal Information
+Processing Standard (FIPS) 186.</td>
+  </tr>
+   <tr>
+    <td>2.</td>
+    <td><b>Algorithm - RSA</b></td>
+	<td>RSA (Rivest, Shamir and Adleman who first publicly described it in 1977) is an algorithm for public-key
+cryptography. It is the first algorithm known to be suitable for signing as well as encryption, and one of
+the first great advances in public key cryptography.
+RSA is widely used in electronic commerce protocols, and is believed to be secure given sufficiently long
+keys and the use of up-to-date implementations.</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td><b>RSA Cryptanalysis</b></td>
+	<td>Rivest, Shamir, and Adelman placed a challenge in Martin Gardner’s column in Scientific American
+(journal) in which the readers were invited to crack.
+C=114,381,625,757,888,867,669,235,779,976,146,612,010,218,296,721,242,362,562,561,842,935,706,935
+,245,733,897,830,597,123,563,958,705,058,989,075,147,599,290,026,879,543,541 </td>
+  </table>
+  
+  
+  <br> <br/>
+<br><b>What is a Hash Function?</b></br>
+<br>A cryptographic hash function is a hash function that
+takes an arbitrary block of data and returns a fixed-size
+bit string, the cryptographic hash value, such that any
+(accidental or intentional) change to the data will (with
+very high probability) change the hash value. The data
+to be encoded are often called the message, and the
+hash value is sometimes called the message digest or
+simply digest.
+<br/>
+<br>The ideal cryptographic hash function has four main properties:
+</br>
+<li>it is easy to compute the hash value for any given message</li>
+<li>it is infeasible to generate a message that has a given hash</li>
+<li>it is infeasible to modify a message without changing the hash</li>
+<li>it is infeasible to find two different messages with the same hash.</li>
+
+<br>  </br>
+<table style="width:100%">
+  <tr>
+    <th>    </th>
+    <th>Examples</th>
+	<th>Description</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td><b>SHA</b></td>
+	<td>The Secure Hash Algorithm (SHA) hash functions are a set of cryptographic hash functions designed by
+the National Security Agency (NSA) and published by the NIST as a U.S. Federal Information Processing
+Standard. .
+• SHA stands for Secure Hash Algorithm.
+• Because of the successful attacks on MD5, SHA-0 and theoretical attacks on SHA-1, NIST
+perceived a need for an alternative, dissimilar cryptographic hash, which became SHA-3.
+• In October 2012, the National Institute of Standards and Technology (NIST) chose the Keccak
+algorithm as the new SHA-3 standard.</td>
+  </tr>
+
+  </table>
+  
+  
+  
+</body>
+</html>
